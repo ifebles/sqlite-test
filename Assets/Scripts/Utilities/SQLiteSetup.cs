@@ -26,7 +26,7 @@ namespace Utilities
 
     public SQLiteSetup()
     {
-      dbPath = $"URI=file:{Application.persistentDataPath}/sqlite-test.db;version=3";
+      dbPath = $"URI=file:{Application.persistentDataPath}/sqlite-test.db";
       conx = CreateConnection();
     }
 
