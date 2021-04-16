@@ -141,7 +141,7 @@ namespace Utilities
               Value = query.Parameters[key],
             });
 
-        Debug.Log($"<color=#{ColorUtility.ToHtmlStringRGBA(Color.green)}>SQL command</color>:\n\n"
+        Debug.Log($"<color=#{ColorUtility.ToHtmlStringRGBA(Color.green)}>SQL query</color>:\n\n"
           + sqlQuery.CommandText);
 
         var reader = sqlQuery.ExecuteReader();
